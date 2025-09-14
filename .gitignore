@@ -1,0 +1,52 @@
+# Credentials and sensitive files
+creds.json
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+.uv-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Configuration and cache
+.intune-config/
+*.pkl
+auth_cache.json
+
+# Backup and report files
+intune_backup_*.json
+intune_report_*.json
+intune_report_*.csv
+intune_assignments_*.json
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Distribution
+dist/
+build/
+*.egg-info/
